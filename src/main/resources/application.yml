@@ -1,0 +1,13 @@
+info:
+  description: "Service for ConsumerOne"
+
+spring:
+  application:
+    name: topic-exchange-consumerone
+
+security:
+  basic:
+    enabled: false
+
+server:
+  port: 9191
